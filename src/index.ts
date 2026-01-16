@@ -10,6 +10,6 @@ convertEnumToValue().forEach( value =>{
     console.log(" Value : ", value)
 })
 
-Object.keys(exampleBigUser).forEach(currKey =>{
-    console.log(currKey, exampleBigUser[currKey])
+Object.values(exampleBigUser).forEach(currKey =>{
+    console.log(currKey)
 })
