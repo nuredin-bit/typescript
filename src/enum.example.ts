@@ -22,6 +22,7 @@ export function tellMeTheDirection(dir : Direction  ): string{
 }
 
 
+
 export function convertEnumToValue(): any[]{
     return  Object.values(Direction).filter(
         value => typeof value === "number"
