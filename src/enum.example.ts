@@ -1,10 +1,10 @@
 
 
 export enum Direction{
-    LEFT, 
-    RIGHT, 
+    LEFT = 1, 
+    RIGHT = 2, 
     TOP, 
-    BOTTOM
+    BOTTOM = 32
 }
 
 export function tellMeTheDirection(dir : Direction  ): string{
@@ -18,5 +18,13 @@ export function tellMeTheDirection(dir : Direction  ): string{
         return "this is direction is right"
     }
 
+
+}
+
+
+export function convertEnumToValue(): any[]{
+    return  Object.values(Direction).filter(
+        value => typeof value === "number"
+    )
 
 }
