@@ -6,6 +6,9 @@ console.log(tellMeTheDirection(Direction.RIGHT))
 console.log(tellMeTheDirection(Direction.TOP))
 console.log(tellMeTheDirection(Direction.BOTTOM))
 
+console.log(tellMeTheDirection(Direction.LEFT))
+
+
 convertEnumToValue().forEach( value =>{
     console.log(" Value : ", value)
 })
@@ -14,4 +17,6 @@ Object.values(exampleBigUser).forEach(currKey =>{
     console.log(currKey)
 })
 
-//  This is the change which comes from main
+
+//  add some comment here
+
